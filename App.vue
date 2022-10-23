@@ -14,6 +14,8 @@
 </script>
 
 <style lang="scss">
+  // 导入vant
+  @import  '/wxcomponents/vant-weapp/dist/common/index.wxss';
 	/*每个页面公共css */
 	@import '@/uni_modules/uni-scss/index.scss';
 	/* #ifndef APP-NVUE */
@@ -22,7 +24,11 @@
 	page {
 		background-color: #f5f5f5;
 	}
-
+    
+  // .van-field__control{
+  //   text-align: center !important;
+  // }
+  
 	/* #endif */
 	.example-info {
 		font-size: 14px;

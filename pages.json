@@ -3,7 +3,10 @@
       "path": "pages/home/home",
       "style": {
         "navigationBarTextStyle": "white",
-        "enablePullDownRefresh": false
+        "enablePullDownRefresh": false,
+        "usingComponents":{
+           "van-button": "/wxcomponents/vant-weapp/dist/button/index"
+        }
       }
 
     },
@@ -46,6 +49,9 @@
   ],
 
   "globalStyle": {
+    "usingComponents": {
+     "van-search": "/wxcomponents/vant-weapp/dist/search/index"
+    },
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "好品优购",
     "navigationBarBackgroundColor": "#d81f07",
