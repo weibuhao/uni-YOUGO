@@ -1,0 +1,140 @@
+{
+  "pages": [{
+      "path": "pages/home/home",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "enablePullDownRefresh": false
+      }
+
+    },
+    {
+      "path": "pages/cate/cate",
+      "style": {
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/cart/cart",
+      "style": {
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/my/my",
+      "style": {
+        "enablePullDownRefresh": false
+      }
+
+    }
+      
+    ],
+  "subPackages": [{
+    "root": "subpkg",
+    "pages": [
+
+      {
+        "path": "goods_detail/goods_detail",
+        "style": {
+          "enablePullDownRefresh": false
+        }
+      },
+      {
+        "path": "goods_list/goods_list",
+        "style": {
+          "enablePullDownRefresh": true,
+          "onReachBottomDistance": 150,
+          "backgroundColor": "#F8F8F8"
+        }
+      },
+      {
+        "path": "search/search",
+        "style": {
+          "enablePullDownRefresh": false
+        }
+
+      }, {
+        "path": "order_details/order_details",
+        "style": {
+          "navigationBarTitleText": "订单详情",
+          "enablePullDownRefresh": false
+        }
+
+      }, {
+        "path": "address_list/address_list",
+        "style": {
+          "navigationBarTitleText": "收货地址",
+          "enablePullDownRefresh": false
+        }
+
+      }, {
+        "path": "establish_address/establish_address",
+        "style": {
+          "navigationBarTitleText": "新建地址",
+          "enablePullDownRefresh": false
+        }
+
+      }
+    ]
+  }],
+
+  "globalStyle": {
+    "usingComponents": {
+      "van-search": "/wxcomponents/vant-weapp/dist/search/index",
+      "van-icon": "/wxcomponents/vant-weapp/dist/icon/index",
+      "van-dialog": "/wxcomponents/vant-weapp/dist/dialog/index",
+      "van-sticky": "/wxcomponents/vant-weapp/dist/sticky/index",
+      "van-button": "/wxcomponents/vant-weapp/dist/button/index",
+      "van-card": "/wxcomponents/vant-weapp/dist/card/index",
+      "van-empty": "/wxcomponents/vant-weapp/dist/empty/index",
+      "van-goods-action": "/wxcomponents/vant-weapp/dist/goods-action/index",
+      "van-goods-action-icon": "/wxcomponents/vant-weapp/dist/goods-action-icon/index",
+      "van-goods-action-button": "/wxcomponents/vant-weapp/dist/goods-action-button/index",
+      "van-submit-bar": "/wxcomponents/vant-weapp/dist/submit-bar/index",
+      "van-checkbox": "/wxcomponents/vant-weapp/dist/checkbox/index",
+      "van-checkbox-group": "/wxcomponents/vant-weapp/dist/checkbox-group/index",
+      "van-field": "/wxcomponents/vant-weapp/dist/field/index",
+      "van-switch": "/wxcomponents/vant-weapp/dist/switch/index",
+      "van-area": "/wxcomponents/vant-weapp/dist/area/index",
+      "van-action-sheet": "/wxcomponents/vant-weapp/dist/action-sheet/index",
+      "van-notice-bar": "/wxcomponents/vant-weapp/dist/notice-bar/index",
+      "van-swipe-cell": "/wxcomponents/vant-weapp/dist/swipe-cell/index",
+      "van-cell": "/wxcomponents/vant-weapp/dist/cell/index",
+      "van-cell-group": "/wxcomponents/vant-weapp/dist/cell-group/index"
+    },
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "好品优购",
+    "navigationBarBackgroundColor": "#d81f07",
+    "backgroundColor": "#F8F8F8",
+    "app-plus": {
+      "background": "#efeff4"
+    }
+  },
+  "tabBar": {
+    "selectedColor": "#C00000",
+    "list": [{
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/tab_icons/home.png",
+        "selectedIconPath": "static/tab_icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/cate/cate",
+        "text": "分类",
+        "iconPath": "static/tab_icons/cate.png",
+        "selectedIconPath": "static/tab_icons/cate-active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "static/tab_icons/cart.png",
+        "selectedIconPath": "static/tab_icons/cart-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/tab_icons/my.png",
+        "selectedIconPath": "static/tab_icons/my-active.png"
+      }
+    ]
+  }
+}

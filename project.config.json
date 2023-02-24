@@ -1,0 +1,25 @@
+{
+    "settings ": {
+       "ignoreDevUnusedFiles": false ,
+        "ignoreUploadUnusedFiles": false
+    },
+    "appid": "wx680d7b14f4657804",
+    "compileType": "miniprogram",
+    "libVersion": "2.30.0",
+    "packOptions": {
+        "ignore": [],
+        "include": []
+    },
+    "setting": {
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        }
+    },
+    "condition": {},
+    "editorSetting": {
+        "tabIndent": "insertSpaces",
+        "tabSize": 4
+    }
+}
